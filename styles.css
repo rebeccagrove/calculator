@@ -3,7 +3,7 @@
 .container {
   max-width: 500px;
   margin: 10vh auto 0 auto;
-  box-shadow: 0px 0px 43px 17px #999999;
+  box-shadow: 0px 0px 43px 17px black;
   background-color: coral;
   border-radius: 60px;
 }
@@ -41,4 +41,24 @@
 background-color: lightgray;
 transform: scale(1.1);
 transition: all ease 500ms;
+}
+
+#social {
+  height: 20vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right:50px;
+  font-family: 'Rampart One', cursive;
+}
+
+.social-button:hover {
+  color: lightgray;
+  transform: scale(1.1);
+  transition: all ease 700ms;
+  cursor: pointer;
 }
