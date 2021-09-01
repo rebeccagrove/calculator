@@ -14,9 +14,10 @@
   background-color: lightcoral;
   line-height: 70px;
   padding: 16px 16px 16px 16px;
-  font-size: 25px;
-  border-radius: 200px;
+  font-size: 40px;
   font-family: 'Rampart One', cursive;
+  border-radius: 60px;
+  border: 20px solid coral;
 }
 
 .buttons {
